@@ -1,0 +1,136 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+
+  background-image: linear-gradient(black 50%, paleturquoise);
+  	min-height: 100%;
+	margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.fa-icons {
+	font-size: 1.75rem;
+}
+
+.navbar {
+	font-size: 22px;
+	align-items: center;
+}
+
+.nav-item {
+	padding: .75rem;
+}
+
+
+h1 {
+  font-size: 60px;
+   background: -webkit-linear-gradient(left, white, gray);
+   background: -o-linear-gradient(right, white, gray);
+   background: -moz-linear-gradient(right, white, gray);
+   background: linear-gradient(to right, white, gray); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 2rem;
+}
+
+h3 {
+  font-size: 40px;
+   background: -webkit-linear-gradient(left, white, gray);
+   background: -o-linear-gradient(right, white, gray);
+   background: -moz-linear-gradient(right, white, gray);
+   background: linear-gradient(to right, white, gray); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 2rem;
+}
+
+h5 {
+  font-size: 25px;
+   background: -webkit-linear-gradient(left, white, gray);
+   background: -o-linear-gradient(right, white, gray);
+   background: -moz-linear-gradient(right, white, gray);
+   background: linear-gradient(to right, white, gray); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+h6 {
+  font-size: 10px;
+   background: -webkit-linear-gradient(left, white, gray);
+   background: -o-linear-gradient(right, white, gray);
+   background: -moz-linear-gradient(right, white, gray);
+   background: linear-gradient(to right, white, gray); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+
+#projects p {
+	color: black;
+}
+
+
+#footer a{
+  font-size: 15px;
+  color: white;
+  padding: .5rem;
+  width: 80%;
+}
+
+
+
+
+#tools img {
+	width: 100px;
+}
+
+button	{
+    background-image: linear-gradient(to right, #77A1D3 10%, #79CBCA  25%, #77A1D3  100%)}
+    padding: auto;
+    text-align: center; 
+    text-decoration: none;
+ 
+}
+
+#landing {
+	text-decoration: none;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+.btn-grad {
+            margin: 5px;
+            padding: 10px 10px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 25px;
+            display: block;
+          }
+
+.btn-grad:hover {
+	background-position: right center;
+	text-decoration: none;
+}
+
+         
+
+#gmap_canvas {
+	height: 60vh;
+	width: 80%;
+}
+
